@@ -1,0 +1,16 @@
+#+title:
+* Introduction
+This is my personal [[https://github.com/gohugoio/hugo][hugo]] blog, which hosted on my vps.
+
+I didn't use github page, this repo is only used to store static site's contents.
+* Download
+#+begin_src sh
+git clone --recurse-submodules https://github.com/FirstLoveLife/blog.linux.beauty
+#+end_src
+* start the server
+#+begin_src
+hugo server -b http://blog.linux.beauty -p 80 --bind 0.0.0.0 -t LoveIt
+#+end_src
+* Thanks
+- https://github.com/dillonzq/LoveIt
+- https://github.com/gohugoio/hugo
